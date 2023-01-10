@@ -3,8 +3,20 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 0;
 }
 
 div {
     display:flex;
+}
+
+.header {
+    background-color: #1F2937;
+    align-self: stretch;
+    padding: 12px;
+}
+
+.logo {
+    margin-right: auto;
+    color: white;
 }
