@@ -2,7 +2,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
     margin: 0;
 }
 
@@ -13,7 +13,18 @@ div {
 .header {
     background-color: #1F2937;
     align-self: stretch;
-    padding: 12px;
+    padding: 12px 120px;
+}
+
+.page-container {
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 120px;
+}
+
+.text-box {
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .logo {
