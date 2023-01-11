@@ -46,9 +46,17 @@ a {
     align-content: center;
 }
 
-.page-container {
+.hero.page-container {
     justify-content: space-between;
     flex-direction: row;
+    padding: 12px 80px;
+    align-items: stretch;
+    flex: 1;
+}
+
+.information.page-container {
+    justify-content: space-between;
+    flex-direction: column;
     padding: 12px 80px;
     align-items: stretch;
     flex: 1;
