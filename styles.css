@@ -39,27 +39,27 @@ a {
     color: white;
 }
 
-.header {
+.header, .footer {
     background-color: #1F2937;
     align-self: stretch;
     padding: 12px 80px;
     align-content: center;
 }
 
-.hero.page-container {
-    justify-content: space-between;
-    flex-direction: row;
+.page-container {
     padding: 12px 80px;
     align-items: stretch;
     flex: 1;
 }
 
+.hero.page-container {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .information.page-container {
     justify-content: space-between;
     flex-direction: column;
-    padding: 12px 80px;
-    align-items: stretch;
-    flex: 1;
 }
 
 .text-box {
