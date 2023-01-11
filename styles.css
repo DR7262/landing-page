@@ -35,6 +35,7 @@ a {
 .header a:focus {
     color: grey;
     margin-left: 12px;
+    font-size: 18px;
 }
 
 .header a:hover {
