@@ -61,9 +61,19 @@ a {
     flex-direction: row;
 }
 
+p.hero {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+p.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 img.hero {
     height:auto;
-    max-width: 400px;
+    max-width: 500px;
     min-width: 50px;
 }
 
@@ -80,6 +90,7 @@ img.hero {
 
 .img-box {
     flex: 1;
+    justify-content: center;
 }
 
 .logo {
