@@ -15,6 +15,21 @@ div {
     display:flex;
 }
 
+a {
+    text-decoration: none;
+}
+
+.header a,
+.header a:visited,
+.header a:focus {
+    color: grey;
+    margin-left: 12px;
+}
+
+.header a:hover {
+    color: white;
+}
+
 .header {
     background-color: #1F2937;
     align-self: stretch;
