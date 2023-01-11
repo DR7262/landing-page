@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap');
 
 html, body {
-    height: 100%;
+    min-height: 100vh;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -47,6 +47,7 @@ a {
     align-self: stretch;
     padding: 12px 80px;
     align-content: center;
+    min-height: 40px;
 }
 
 .page-container {
@@ -58,6 +59,12 @@ a {
 .hero.page-container {
     justify-content: space-between;
     flex-direction: row;
+}
+
+img.hero {
+    height:auto;
+    max-width: 400px;
+    min-width: 50px;
 }
 
 .information.page-container {
