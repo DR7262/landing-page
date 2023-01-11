@@ -4,6 +4,15 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.header .links {
+    align-items: center;
+}
+
 body {
     display:flex;
     flex-direction: column;
@@ -34,6 +43,7 @@ a {
     background-color: #1F2937;
     align-self: stretch;
     padding: 12px 80px;
+    align-content: center;
 }
 
 .page-container {
