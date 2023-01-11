@@ -32,6 +32,11 @@ div {
 .text-box {
     flex-direction: column;
     flex-wrap: wrap;
+    flex: 1;
+}
+
+.img-box {
+    flex: 1;
 }
 
 .logo {
