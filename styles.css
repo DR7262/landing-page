@@ -101,6 +101,20 @@ img.hero {
     flex-direction: column;
 }
 
+.information.img-box {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.information .img-box {
+    border: 2px solid black;
+    margin: auto;
+    min-width: 250px;
+    min-height: 250px;
+    flex: 0;
+    gap: 20px;
+}
+
 .text-box {
     flex-direction: column;
     flex-wrap: wrap;
