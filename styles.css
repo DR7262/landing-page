@@ -59,6 +59,7 @@ a {
 .hero.page-container {
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 p.hero {
@@ -71,10 +72,15 @@ p.subtext {
     color: #E5E7EB;
 }
 
+button {
+    align-self: center;
+}
+
 img.hero {
     height:auto;
-    max-width: 500px;
-    min-width: 50px;
+    max-width: 100%;
+    min-width: 200px;
+    align-self: center;
 }
 
 .information.page-container {
