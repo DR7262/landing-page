@@ -60,12 +60,14 @@ a {
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #1F2937;
 }
 
 p.hero {
     font-size: 48px;
     font-weight: 700;
     text-align: center;
+    color: white;
 }
 
 p.subtext {
