@@ -45,13 +45,13 @@ a {
 .header, .footer {
     background-color: #1F2937;
     align-self: stretch;
-    padding: 12px 80px;
+    padding: 12px 200px;
     align-content: center;
     min-height: 40px;
 }
 
 .page-container {
-    padding: 12px 80px;
+    padding: 12px 200px;
     align-items: stretch;
     flex: 1;
 }
