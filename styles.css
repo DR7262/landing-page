@@ -76,12 +76,17 @@ p.subtext {
     text-align: center;
 }
 
-button {
+button.hero {
     align-self: center;
-    padding: 0 20px;
+    padding: 8px 25px;
     font-size: 15px;
+    font-weight: 700;
+    color: #E5E7EB;
     margin-bottom: 30px;
     margin-top: 20px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 9px;
 }
 
 img.hero {
