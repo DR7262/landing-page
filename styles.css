@@ -65,15 +65,21 @@ a {
 p.hero {
     font-size: 48px;
     font-weight: 700;
+    text-align: center;
 }
 
 p.subtext {
     font-size: 18px;
     color: #E5E7EB;
+    text-align: center;
 }
 
 button {
     align-self: center;
+    padding: 0 20px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 img.hero {
@@ -92,6 +98,14 @@ img.hero {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
+    align-content: center;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+.text-box > p,
+.text-box > h2 {
+    margin: 2px 0;
 }
 
 .img-box {
