@@ -72,7 +72,7 @@ p.hero {
 
 p.subtext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: gray;
     text-align: center;
 }
 
@@ -107,18 +107,28 @@ img.hero {
     padding: 20px;
 }
 
-.information.img-box {
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
 .information .img-box {
-    border: 2px solid black;
+    border-radius: 12px;
     margin-block: auto;
     min-width: 250px;
     min-height: 250px;
     flex: 0;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.information img {
+    display: flex;
+    min-height: 250px;
+    max-height: 250px;
+    width: auto;
+    border-radius: 12px;
+}
+
+.information.img-box {
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .text-box {
