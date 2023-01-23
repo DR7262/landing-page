@@ -101,6 +101,12 @@ img.hero {
     flex-direction: column;
 }
 
+.title.text-box {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 20px;
+}
+
 .information.img-box {
     justify-content: space-evenly;
     flex-wrap: wrap;
