@@ -61,6 +61,11 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #1F2937;
+    padding-bottom: 40px;
+}
+
+.hero .text-box {
+    padding-right: 5%;
 }
 
 p.hero {
@@ -131,13 +136,29 @@ img.hero {
     flex-wrap: wrap;
 }
 
+.quote.page-container {
+    background-color: #E5E7EB;
+    padding: 50px 240px;
+}
+
+p.quote {
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+}
+
+p.author {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: right;
+}
+
 .text-box {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
     align-content: center;
     justify-content: center;
-    padding-right: 5%;
 }
 
 .text-box > p,
