@@ -45,13 +45,13 @@ a {
 .header, .footer {
     background-color: #1F2937;
     align-self: stretch;
-    padding: 12px 200px;
+    padding: 12px 50px;
     align-content: center;
     min-height: 40px;
 }
 
 .page-container {
-    padding: 12px 200px;
+    padding: 12px 100px;
     align-items: stretch;
     flex: 1;
 }
@@ -108,7 +108,7 @@ img.hero {
 
 .information .img-box {
     border: 2px solid black;
-    margin: auto;
+    margin-block: auto;
     min-width: 250px;
     min-height: 250px;
     flex: 0;
