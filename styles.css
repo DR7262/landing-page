@@ -153,6 +153,39 @@ p.author {
     text-align: right;
 }
 
+.cta.page-container {
+    justify-content: center;
+    padding: 50px 175px
+}
+
+.banner {
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 40px 100px;
+    flex: 1;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.banner .text-box {
+    color: white;
+    text-align: left;
+    flex: 1;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+
+button.cta {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    padding: 6px 20px;
+    flex-grow: 0;
+    align-self: center;
+}
+
 .text-box {
     flex-direction: column;
     flex-wrap: wrap;
