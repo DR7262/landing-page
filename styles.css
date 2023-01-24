@@ -186,6 +186,13 @@ button.cta {
     align-self: center;
 }
 
+.footer {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+}
+
 .text-box {
     flex-direction: column;
     flex-wrap: wrap;
